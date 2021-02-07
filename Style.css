@@ -8,6 +8,16 @@ body {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
+#imgload {
+    background-image: url('/img/IteachLoader.gif');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
 header {
     display: flex;
     width: 90%;
@@ -157,4 +167,26 @@ nav {
     font-weight: 500;
     color: #f8a998;
     margin-bottom: 50px;
+}
+
+.slide {
+    display: flex;
+}
+
+.LogoSlicerValeur {
+    flex: 1;
+    margin-right: 10px;
+    ;
+}
+
+.TextSlicerValeur {
+    flex: 1;
+}
+
+.owl-carousel li {
+    list-style: none;
+}
+
+.owl-nav {
+    display: none;
 }
