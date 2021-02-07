@@ -54,6 +54,7 @@ nav {
 
 .introduction {
     flex: 1;
+    animation: drop 1.5s ease;
 }
 
 .intro-text h1 {
@@ -90,13 +91,70 @@ nav {
     animation: drop 1.5s ease;
 }
 
-@keyframes drop {
-    0% {
-        opacity: 0;
-        transform: translateY(-80px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0px);
-    }
+.Action {
+    background-color: #f3f4f5;
+}
+
+.Action h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: #f8a998;
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+.ActionsCatalog {
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.Servicerow {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.ActionPrez {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.logoActionPrez {
+    flex: 1;
+}
+
+.TextActionPrez {
+    flex: 3;
+    margin-left: 30px;
+    text-align: justify;
+}
+
+.TextActionPrez p {
+    font-size: 18px;
+}
+
+.TextActionPrez h2 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #f8a998;
+}
+
+.TitreService {
+    font-size: 25px;
+    text-align: justify;
+}
+
+.Valeur h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: #f8a998;
+    margin-bottom: 50px;
 }
