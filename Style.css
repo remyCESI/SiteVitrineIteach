@@ -24,16 +24,16 @@ header {
     height: 10vh;
     margin: auto;
     align-items: center;
-    border-style: solid;
-    border-top: none;
-    border-radius: 0px 0px 30px 30px;
-    border-color: rgba(212, 212, 212, 0.123);
 }
 
 .containerHeader {
     display: flex;
     align-items: center;
     width: 100%;
+    border-style: solid;
+    border-top: none;
+    border-radius: 0px 0px 30px 30px;
+    border-color: rgba(212, 212, 212, 0.123);
 }
 
 .logo-container {
