@@ -24,12 +24,23 @@ header {
     height: 10vh;
     margin: auto;
     align-items: center;
+    border-style: solid;
+    border-top: none;
+    border-radius: 0px 0px 30px 30px;
+    border-color: rgba(212, 212, 212, 0.123);
+}
+
+.containerHeader {
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
 
 .logo-container {
     display: flex;
     align-items: center;
     flex: 1;
+    padding-left: 10px;
 }
 
 .logo {
@@ -52,6 +63,11 @@ nav {
     color: black;
     font-size: 20px;
     text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #f8a998;
+    font-weight: 600;
 }
 
 .presentation {
@@ -102,7 +118,7 @@ nav {
 }
 
 .Action {
-    background-color: #f3f4f5;
+    background-color: #f3f4f56b;
 }
 
 .Action h1 {
@@ -159,6 +175,12 @@ nav {
 .TitreService {
     font-size: 25px;
     text-align: justify;
+    text-decoration: underline #f8a998;
+}
+
+.TitreValeur {
+    color: #f8a998;
+    text-decoration: underline #f8a998;
 }
 
 .Valeur h1 {
@@ -183,10 +205,80 @@ nav {
     flex: 1;
 }
 
+.owl-carousel {
+    margin-top: 100px;
+    ;
+}
+
 .owl-carousel li {
     list-style: none;
 }
 
 .owl-nav {
     display: none;
+}
+
+.Actualite {
+    background-color: #f3f4f56b;
+}
+
+.Actualite h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: #f8a998;
+}
+
+.CatalogActu {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+
+.Actu {
+    width: 500px;
+    background-color: rgba(255, 0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.imgActu {
+    width: 100%;
+}
+
+.contenuImg {
+    padding: 10px;
+    border-style: solid;
+    border-color: rgba(212, 212, 212, 0.767);
+}
+
+.CatalogActuRow {
+    display: flex;
+}
+
+.contenuImg p {
+    padding: 10px;
+    text-align: justify;
+}
+
+.BtnActu {
+    background-color: #f8aa98a8;
+    color: white;
+    font-weight: bolder;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.BtnActu:hover {
+    background-color: #f8aa98;
+}
+
+.CTBtnActu {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    ;
 }
