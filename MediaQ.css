@@ -22,6 +22,10 @@
     .logo-container {
         margin-top: 10px;
     }
+    .CatalogActuRow {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     .nav-links {
         margin-top: 10px;
     }

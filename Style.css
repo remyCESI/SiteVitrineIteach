@@ -256,6 +256,7 @@ nav {
 
 .CatalogActuRow {
     display: flex;
+    align-items: stretch;
 }
 
 .contenuImg p {
