@@ -61,4 +61,11 @@
         margin-right: 0px;
         margin-bottom: 40px;
     }
+    footer {
+        flex-direction: column;
+    }
+    .socialM,
+    .LogoFooter {
+        margin-bottom: 20px;
+    }
 }

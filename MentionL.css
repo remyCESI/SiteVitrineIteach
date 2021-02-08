@@ -1,0 +1,11 @@
+.legals {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.legals h4 {
+    color: #ff9881;
+}

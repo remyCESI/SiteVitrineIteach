@@ -283,3 +283,35 @@ nav {
     padding-bottom: 10px;
     ;
 }
+
+footer {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+    display: flex;
+}
+
+.socialM {
+    flex: auto;
+    text-align: center;
+    color: black;
+}
+
+.LogoFooter {
+    flex: auto;
+    text-align: center;
+}
+
+.Adresse {
+    flex: auto;
+    text-align: center;
+}
+
+.socialM a {
+    color: black;
+}
+
+.socialM a i {
+    color: #f8aa98;
+    padding-right: 5px;
+}
