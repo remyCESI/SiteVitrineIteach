@@ -22,13 +22,18 @@ $(document).ready(function() {
         delay: 500
     })
 
-    Sr.reveal('H1', {
+    Sr.reveal('h1', {
         duration: 500
     })
 
     Sr.reveal('.Actu', {
         duration: 500
     }, 50)
+
+    Sr.reveal('.ContainerContact', {
+        duration: 1000
+    })
+
 
     $('.js-scrollTo').on('click', function() { // Au clic sur un élément
         var page = $(this).attr('href'); // Page cible
