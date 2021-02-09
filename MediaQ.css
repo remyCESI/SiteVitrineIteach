@@ -51,6 +51,9 @@
         margin-right: 0px;
         margin-bottom: 40px;
     }
+    .ContainerContact {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 767px) {
