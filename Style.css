@@ -315,3 +315,9 @@ footer {
     color: #f8aa98;
     padding-right: 5px;
 }
+
+.legals {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
