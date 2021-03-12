@@ -29,6 +29,7 @@
     }
     .presentation {
         flex-direction: column;
+        align-items: unset;
     }
     .introduction {
         margin-top: 5vh;
