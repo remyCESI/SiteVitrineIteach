@@ -11,6 +11,10 @@ $(window).on('load', function() {
 
 
 $(document).ready(function() {
+    FEmail = $('#fEmail').val()
+    FMessage = $('#message').val()
+    FEmail = ""
+    FMessage = ""
     Sr.reveal('.logo-container')
     Sr.reveal('.introduction', {
         delay: 200

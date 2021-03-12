@@ -3,6 +3,9 @@
         flex-direction: column;
         flex-wrap: wrap;
     }
+    .TextActionPrez {
+        margin: 0;
+    }
     .containerHeader {
         display: flex;
         flex-direction: column;
@@ -54,9 +57,16 @@
     .ContainerContact {
         flex-direction: column;
     }
+    .Actu {
+        padding: 0;
+        margin-bottom: 20px;
+    }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 769px) {
+    .ActionPrez {
+        padding: 0;
+    }
     footer {
         flex-direction: column;
     }
