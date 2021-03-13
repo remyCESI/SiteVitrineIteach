@@ -6,15 +6,16 @@ const Sr = ScrollReveal({
 $(window).on('load', function() {
 
     $("#imgload").fadeOut("2000");
+    FEmail = $('#fEmail').val()
+    FMessage = $('#message').val()
+    FEmail = ""
+    FMessage = ""
 })
 
 
 
 $(document).ready(function() {
-    FEmail = $('#fEmail').val()
-    FMessage = $('#message').val()
-    FEmail = ""
-    FMessage = ""
+
     Sr.reveal('.logo-container')
     Sr.reveal('.introduction', {
         delay: 200
